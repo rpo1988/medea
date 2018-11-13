@@ -1,0 +1,24 @@
+{
+  "name": "@nulpas/medea",
+  "version": "0.0.0-beta.1",
+  "description": "Template system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nulpas/medea.git"
+  },
+  "keywords": [
+    "template",
+    "css",
+    "style"
+  ],
+  "author": "Nul Pàs <manu@lunaeme.com> (https://github.com/nulpas)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nulpas/medea/issues"
+  },
+  "homepage": "https://github.com/nulpas/medea#readme"
+}
