@@ -1,4 +1,11 @@
 const fontPathFile = '../fonts/nunito-v9-latin-regular.';
+const fontUrl = {
+  eot: fontPathFile + 'eot',
+  svg: fontPathFile + 'svg',
+  ttf: fontPathFile + 'ttf',
+  woff: fontPathFile + 'woff',
+  woff2: fontPathFile + 'woff2'
+};
 
 module.exports = {
   plugins: {
@@ -7,25 +14,7 @@ module.exports = {
         'Nunito': {
           variants: {
             normal: {
-              400: {
-                local: ['Nunito Test'],
-                url: {
-                  woff2: fontPathFile + 'woff2',
-                  woff: fontPathFile + 'woff'
-                }
-              },
-              700: {
-                url: {
-                  woff2: fontPathFile + 'woff2',
-                }
-              }
-            },
-            italic: {
-              400: {
-                url: {
-                  woff2: fontPathFile + 'woff2',
-                }
-              }
+              600: { url: fontUrl }
             }
           }
         }
