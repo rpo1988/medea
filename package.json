@@ -1,10 +1,11 @@
 {
   "name": "@nulpas/medea",
-  "version": "0.0.0-beta.1",
+  "version": "0.0.0-beta.2",
   "description": "Template system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,23 @@
   "bugs": {
     "url": "https://github.com/nulpas/medea/issues"
   },
-  "homepage": "https://github.com/nulpas/medea#readme"
+  "homepage": "https://github.com/nulpas/medea#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-font-magician": "^2.2.1",
+    "postcss-loader": "^3.0.0",
+    "resolve-url-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
