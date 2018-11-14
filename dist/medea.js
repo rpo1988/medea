@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -86,25 +86,25 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.scss":
-/*!************************!*\
-  !*** ./src/index.scss ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/index.scss?");
-
-/***/ }),
-
-/***/ 0:
+/***/ "./src/style/index.scss":
 /*!******************************!*\
-  !*** multi ./src/index.scss ***!
+  !*** ./src/style/index.scss ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! /Users/mpastor/SERVER/MEDEA/medea/src/index.scss */\"./src/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/index.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/index.scss?");
+
+/***/ }),
+
+/***/ 0:
+/*!************************************!*\
+  !*** multi ./src/style/index.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__(/*! /Users/mpastor/SERVER/MEDEA/medea/src/style/index.scss */\"./src/style/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/style/index.scss?");
 
 /***/ })
 

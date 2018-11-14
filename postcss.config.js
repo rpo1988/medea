@@ -1,4 +1,4 @@
-const fontPathFile = 'fonts/nunito-v9-latin-regular.';
+const fontPathFile = '../fonts/nunito-v9-latin-regular.';
 
 module.exports = {
   plugins: {

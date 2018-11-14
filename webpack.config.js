@@ -3,12 +3,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   mode: 'development',
   entry: [
-    __dirname + '/src/index.scss'
+    __dirname + '/src/style/index.scss'
   ],
   output: {
     path: __dirname + '/dist',
     filename: 'medea.js',
-    publicPath: '/'
+    publicPath: ''
   },
   module: {
     rules: [
