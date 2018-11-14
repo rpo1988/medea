@@ -86,25 +86,25 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/style/index.scss":
-/*!******************************!*\
-  !*** ./src/style/index.scss ***!
-  \******************************/
+/***/ "./src/index.scss":
+/*!************************!*\
+  !*** ./src/index.scss ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/index.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/index.scss?");
 
 /***/ }),
 
 /***/ 0:
-/*!************************************!*\
-  !*** multi ./src/style/index.scss ***!
-  \************************************/
+/*!******************************!*\
+  !*** multi ./src/index.scss ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! /Users/mpastor/SERVER/MEDEA/medea/src/style/index.scss */\"./src/style/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/style/index.scss?");
+eval("module.exports = __webpack_require__(/*! /Users/mpastor/SERVER/MEDEA/medea/src/index.scss */\"./src/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/index.scss?");
 
 /***/ })
 
