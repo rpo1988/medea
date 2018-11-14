@@ -1,26 +1,13 @@
 @font-face {
   font-family: Nunito;
   font-style: normal;
-  font-weight: 600;
-  src: url(fonts/nunito-v9-latin-regular.eot) format("eot"), url(fonts/nunito-v9-latin-regular.woff2) format("woff2"), url(fonts/nunito-v9-latin-regular.woff) format("woff"); }
+  font-weight: normal;
+  src: url(fonts/nunito-v9-latin-regular.eot);
+  src: local("Nunito Regular"), local(Nunito-Regular), url(fonts/nunito-v9-latin-regular.eot) format("embedded-opentype"), url(fonts/nunito-v9-latin-regular.woff2) format("woff2"), url(fonts/nunito-v9-latin-regular.woff) format("woff"), url(fonts/nunito-v9-latin-regular.ttf) format("truetype"), url(fonts/nunito-v9-latin-regular.svg) format("svg"); }
 
-.dummy {
-  color: #000099; }
-
-.test {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-transform: scale(0.75);
-  transform: scale(0.75);
-  color: rgba(255, 255, 255, 0.9);
-  border-color: rgba(64, 64, 64, 0.9);
-  background-color: #000099;
-  padding: 40px;
-  padding: 2.5rem;
-  font-family: 'Nunito', sans-serif; }
+BODY * {
+  font-family: Nunito, sans-serif;
+  outline: none;
+  margin: 0;
+  padding: 0; }
 

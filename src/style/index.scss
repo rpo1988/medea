@@ -1,18 +1,10 @@
-$colorBlack: #000099;
+@import 'global/fonts';
 
-.dummy {
-  color: $colorBlack;
-}
-
-.test {
-  display: flex;
-  flex-direction: row;
-  transform: scale(.75);
-  color: color(white alpha(90%));
-  border-color: gray(25%, 90%);
-  background-color: $colorBlack;
-  padding: 2.5rem;
-  //font-family: 'Roboto', sans-serif;
-  //font-family: 'Arial', sans-serif;
-  font-family: 'Nunito', sans-serif;
+BODY {
+  * {
+    font-family: Nunito, sans-serif;
+    outline: none;
+    margin: 0;
+    padding: 0;
+  }
 }
