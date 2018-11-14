@@ -8,9 +8,10 @@ module.exports = {
           variants: {
             normal: {
               400: {
+                local: ['Nunito Test'],
                 url: {
                   woff2: fontPathFile + 'woff2',
-                  woff: fontPathFile + 'woff',
+                  woff: fontPathFile + 'woff'
                 }
               },
               700: {
