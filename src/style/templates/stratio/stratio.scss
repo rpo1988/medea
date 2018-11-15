@@ -1,9 +1,29 @@
-@import '../../global/fonts';
+@import '../../global/fonts/Nunito';
+@import '../../global/fonts/Stratio-Icon-Set';
 
 BODY#mda-stratio-tpl, BODY.mda-stratio-tpl, #mda-stratio-tpl__layer {
   * {
     font-family: Nunito, sans-serif;
     outline: none;
+  }
 
+  .mda-font__light {
+    font-weight: 300;
+  }
+  .mda-font__lightItalic {
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .mda-font__regular {
+    font-weight: normal;
+  }
+  .mda-font__regularItalic {
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  .mda-icon {
+    @extend %mda-icon-definition;
   }
 }

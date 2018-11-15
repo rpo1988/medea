@@ -1,6 +1,6 @@
 {
   "name": "@nulpas/medea",
-  "version": "0.0.0-beta.10",
+  "version": "0.0.0-beta.11",
   "description": "Template system.",
   "main": "index.js",
   "scripts": {
