@@ -5,6 +5,27 @@
   src: url(fonts/nunito-v9-latin-regular.eot);
   src: local("Nunito Regular"), local(Nunito-Regular), url(fonts/nunito-v9-latin-regular.eot) format("embedded-opentype"), url(fonts/nunito-v9-latin-regular.woff2) format("woff2"), url(fonts/nunito-v9-latin-regular.woff) format("woff"), url(fonts/nunito-v9-latin-regular.ttf) format("truetype"), url(fonts/nunito-v9-latin-regular.svg) format("svg"); }
 
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: normal;
+  src: url(fonts/nunito-v9-latin-italic.eot);
+  src: local("Nunito Italic"), local(Nunito-Italic), url(fonts/nunito-v9-latin-italic.eot) format("embedded-opentype"), url(fonts/nunito-v9-latin-italic.woff2) format("woff2"), url(fonts/nunito-v9-latin-italic.woff) format("woff"), url(fonts/nunito-v9-latin-italic.ttf) format("truetype"), url(fonts/nunito-v9-latin-italic.svg) format("svg"); }
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/nunito-v9-latin-300.eot);
+  src: local("Nunito Light"), local(Nunito-Light), url(fonts/nunito-v9-latin-300.eot) format("embedded-opentype"), url(fonts/nunito-v9-latin-300.woff2) format("woff2"), url(fonts/nunito-v9-latin-300.woff) format("woff"), url(fonts/nunito-v9-latin-300.ttf) format("truetype"), url(fonts/nunito-v9-latin-300.svg) format("svg"); }
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 300;
+  src: url(fonts/nunito-v9-latin-300italic.eot);
+  src: local("Nunito Light Italic"), local(Nunito-LightItalic), url(fonts/nunito-v9-latin-300italic.eot) format("embedded-opentype"), url(fonts/nunito-v9-latin-300italic.woff2) format("woff2"), url(fonts/nunito-v9-latin-300italic.woff) format("woff"), url(fonts/nunito-v9-latin-300italic.ttf) format("truetype"), url(fonts/nunito-v9-latin-300italic.svg) format("svg"); }
+
 BODY#mda-stratio-tpl *, BODY.mda-stratio-tpl *, #mda-stratio-tpl__layer * {
   font-family: Nunito, sans-serif;
   outline: none; }
