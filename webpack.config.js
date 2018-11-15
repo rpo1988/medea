@@ -1,13 +1,17 @@
+const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+console.log(path.resolve(__dirname, 'src/style'));
 
 module.exports = {
   mode: 'development',
-  entry: [
-    __dirname + '/src/style/index.scss'
-  ],
+  entry: {
+    stratio: path.resolve(__dirname, 'src/style/templates/stratio/stratio.scss'),
+    eci: path.resolve(__dirname, 'src/style/templates/eci/eci.scss')
+  },
   output: {
-    path: __dirname + '/dist',
-    filename: 'medea.js',
+    path: path.resolve(__dirname, 'dist'),
+    // filename: 'medea.js',
     publicPath: ''
   },
   module: {
@@ -50,7 +54,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'medea.css'
+      filename: '[name].css'
     })
   ]
 };

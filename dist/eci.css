@@ -5,9 +5,6 @@
   src: url(fonts/nunito-v9-latin-regular.eot);
   src: local("Nunito Regular"), local(Nunito-Regular), url(fonts/nunito-v9-latin-regular.eot) format("embedded-opentype"), url(fonts/nunito-v9-latin-regular.woff2) format("woff2"), url(fonts/nunito-v9-latin-regular.woff) format("woff"), url(fonts/nunito-v9-latin-regular.ttf) format("truetype"), url(fonts/nunito-v9-latin-regular.svg) format("svg"); }
 
-BODY * {
-  font-family: Nunito, sans-serif;
-  outline: none;
-  margin: 0;
-  padding: 0; }
+BODY#mda-eci-tpl *, BODY.mda-eci-tpl *, #mda-eci-tpl__layer * {
+  font-size: 76px; }
 

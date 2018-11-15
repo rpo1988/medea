@@ -81,30 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/style/templates/eci/eci.scss");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/style/index.scss":
-/*!******************************!*\
-  !*** ./src/style/index.scss ***!
-  \******************************/
+/***/ "./src/style/templates/eci/eci.scss":
+/*!******************************************!*\
+  !*** ./src/style/templates/eci/eci.scss ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/index.scss?");
-
-/***/ }),
-
-/***/ 0:
-/*!************************************!*\
-  !*** multi ./src/style/index.scss ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__(/*! /Users/mpastor/SERVER/MEDEA/medea/src/style/index.scss */\"./src/style/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/style/index.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/templates/eci/eci.scss?");
 
 /***/ })
 
