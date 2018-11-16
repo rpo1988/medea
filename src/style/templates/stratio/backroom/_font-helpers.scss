@@ -1,0 +1,20 @@
+@import '../../../global/mixins';
+@import '../../../global/nunito-definitions';
+
+@import 'font-sizes';
+
+%mda-font-sizes__base {
+  @each $key, $value in $fontSizesAvailable {
+    .mda-fs__#{$key} {
+      @include createFontSizeElement(map-get($value, fontSize), map-get($value, lineHeight));
+    }
+  }
+}
+
+$typoDefault: map-get($fontWeightsAvailable, regular);
+$fontSizeDefault: map-get($fontSizesAvailable, 16);
+
+%mda-font__default {
+  @include createTypographyElement(map-get($typoDefault, weight), map-get($typoDefault, style));
+  @include createFontSizeElement(map-get($fontSizeDefault, fontSize), map-get($fontSizeDefault, lineHeight));
+}

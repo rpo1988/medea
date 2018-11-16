@@ -1,8 +1,0 @@
-@import '../../../global/mixins';
-@import '../../../global/nunito-definitions';
-
-$fontDefault: map-get($fontWeightsAvailable, regular);
-
-%mda-font__default {
-  @include createTypographyElement(map-get($fontDefault, weight), map-get($fontDefault, style));
-}

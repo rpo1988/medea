@@ -3,7 +3,7 @@
 
 $iconFontFamily: 'Stratio Icon';
 
-@include createFontFaceRule($iconFontFamily, normal, normal, '../../fonts/stratio-icon-set/ico_stratio');
+@include createFontFaceRule($iconFontFamily, normal, normal, '../../../fonts/stratio-icon-set/ico_stratio');
 
 %mda-icon__definition {
   font-family: $iconFontFamily, Symbol, sans-serif;

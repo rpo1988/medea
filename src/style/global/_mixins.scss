@@ -28,3 +28,11 @@
   font-style: $style;
   @content;
 }
+
+//## Mixin for create font size class.
+//## PARAMETERS: font-size, line-height
+@mixin createFontSizeElement($fontSize, $lineHeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  @content;
+}

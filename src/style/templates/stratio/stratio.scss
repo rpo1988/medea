@@ -1,7 +1,7 @@
 @import '../../global/fonts/Nunito';
 @import '../../global/fonts/Stratio-Icon';
 
-@import 'backroom/typography-helpers';
+@import 'backroom/font-helpers';
 
 BODY#mda-stratio-tpl, BODY.mda-stratio-tpl, #mda-stratio-tpl__layer {
   font-size: 16px;
@@ -13,6 +13,7 @@ BODY#mda-stratio-tpl, BODY.mda-stratio-tpl, #mda-stratio-tpl__layer {
   }
 
   @extend %mda-typography__base;
+  @extend %mda-font-sizes__base;
 
   .mda-icon {
     @extend %mda-icon__definition;
