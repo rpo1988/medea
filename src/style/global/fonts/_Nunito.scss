@@ -1,47 +1,19 @@
 @import '../mixins';
+@import '../nunito-definitions';
 
-$fontName: Nunito;
-$fontWeights: (300, normal, 600, bold, 800);
-$fontNormalUrls: (
-  '../../fonts/nunito/nunito-v9-latin-300',
-  '../../fonts/nunito/nunito-v9-latin-regular',
-  '../../fonts/nunito/nunito-v9-latin-600',
-  '../../fonts/nunito/nunito-v9-latin-700',
-  '../../fonts/nunito/nunito-v9-latin-800'
-);
-$fontItalicUrls: (
-  '../../fonts/nunito/nunito-v9-latin-300italic',
-  '../../fonts/nunito/nunito-v9-latin-italic',
-  '../../fonts/nunito/nunito-v9-latin-600italic',
-  '../../fonts/nunito/nunito-v9-latin-700italic',
-  '../../fonts/nunito/nunito-v9-latin-800italic'
-);
-$localNormalName1: ('Nunito Light', 'Nunito Regular', 'Nunito SemiBold', 'Nunito Bold', 'Nunito ExtraBold');
-$localItalicName1: (
-  'Nunito Light Italic',
-  'Nunito Italic',
-  'Nunito SemiBold Italic',
-  'Nunito Bold Italic',
-  'Nunito ExtraBold Italic'
-);
-$localNormalName2: (Nunito-Light, Nunito-Regular, Nunito-SemiBold, Nunito-Bold, Nunito-ExtraBold);
-$localItalicName2: (
-  Nunito-LightItalic,
-  Nunito-Italic,
-  Nunito-SemiBoldItalic,
-  Nunito-BoldItalic,
-  Nunito-ExtraBoldItalic
-);
-
-@for $i from 1 through length($fontWeights) {
+@each $key, $value in $fontWeightsAvailable {
   @include createFontFaceRule(
       $fontName,
-      nth($fontWeights, $i),
-      nth($fontNormalUrls, $i),
-      nth($fontItalicUrls, $i),
-      nth($localNormalName1, $i),
-      nth($localItalicName1, $i),
-      nth($localNormalName2, $i),
-      nth($localItalicName2, $i)
+      map-get($value, weight),
+      map-get($value, style),
+      map-get($value, path),
+      map-get($value, local1),
+      map-get($value, local2)
   );
+
+  %mda-typography__base {
+    .mda-font__#{$key} {
+      @include createTypographyElement(map-get($value, weight), map-get($value, style));
+    }
+  }
 }

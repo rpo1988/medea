@@ -1,43 +1,7 @@
 //## Mixin for generate @font-face css rules.
-//## PARAMETERS: font-family, font-weight, url, url, local, local, local, local
-@mixin createFontFaceRule($name, $weight, $path, $pathItalic, $local01, $localItalic01, $local02, $localItalic02) {
-  @font-face {
-    font-family: $name;
-    font-style: normal;
-    font-weight: $weight;
-    src: url('#{$path}.eot'); //# IE9 Compat Modes
-    src:
-      local($local01),
-      local($local02),
-      url('#{$path}.eot?#iefix') format('embedded-opentype'), //# IE6-IE8
-      url('#{$path}.woff2') format('woff2'),                  //# Super Modern Browsers
-      url('#{$path}.woff') format('woff'),                    //# Modern Browsers
-      url('#{$path}.ttf') format('truetype'),                 //# Safari, Android, iOS
-      url('#{$path}.svg#Nunito') format('svg');               //# Legacy iOS
-    @content;
-  }
-
-  @font-face {
-    font-family: $name;
-    font-style: italic;
-    font-weight: $weight;
-    src: url('#{$pathItalic}.eot'); //# IE9 Compat Modes
-    src:
-      local($localItalic01),
-      local($localItalic02),
-      url('#{$pathItalic}.eot?#iefix') format('embedded-opentype'), //# IE6-IE8
-      url('#{$pathItalic}.woff2') format('woff2'),                  //# Super Modern Browsers
-      url('#{$pathItalic}.woff') format('woff'),                    //# Modern Browsers
-      url('#{$pathItalic}.ttf') format('truetype'),                 //# Safari, Android, iOS
-      url('#{$pathItalic}.svg#Nunito') format('svg');               //# Legacy iOS
-    @content;
-  }
-}
-
-//## Mixin for generate @font-face css rules.
 //## PARAMETERS: font-family, font-weight, font-style, url, local, local
-@mixin createSingleFontFaceRule($name, $weight, $style, $path, $local01: '', $local02: '') {
-  $_local01: if($local01 != '', 'local(#{$local01}),', '');
+@mixin createFontFaceRule($name, $weight, $style, $path, $local01: '', $local02: '') {
+  $_local01: if($local01 != '', 'local("#{$local01}"),', '');
   $_local02: if($local02 != '', 'local(#{$local02}),', '');
 
   @font-face {
@@ -55,4 +19,12 @@
       url('#{$path}.svg#Nunito') format('svg');               //# Legacy iOS
     @content;
   }
+}
+
+//## Mixin for create typography class.
+//## PARAMETERS: font-weight, font-style
+@mixin createTypographyElement($weight, $style) {
+  font-weight: $weight;
+  font-style: $style;
+  @content;
 }
