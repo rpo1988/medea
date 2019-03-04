@@ -289,7 +289,7 @@ BODY#mda-stratio-tpl .mda-icon, BODY.mda-stratio-tpl .mda-icon, #mda-stratio-tpl
   BODY#mda-stratio-tpl .icon-square-minus.mda-icon:before, BODY.mda-stratio-tpl .icon-square-minus.mda-icon:before, #mda-stratio-tpl__layer .icon-square-minus.mda-icon:before {
     content: "\e045"; }
   BODY#mda-stratio-tpl .icon-square-check.mda-icon:before, BODY.mda-stratio-tpl .icon-square-check.mda-icon:before, #mda-stratio-tpl__layer .icon-square-check.mda-icon:before {
-    content: "\e046"; }
+    content: "\e9bf"; }
   BODY#mda-stratio-tpl .icon-square-cross.mda-icon:before, BODY.mda-stratio-tpl .icon-square-cross.mda-icon:before, #mda-stratio-tpl__layer .icon-square-cross.mda-icon:before {
     content: "\e047"; }
   BODY#mda-stratio-tpl .icon-check2.mda-icon:before, BODY.mda-stratio-tpl .icon-check2.mda-icon:before, #mda-stratio-tpl__layer .icon-check2.mda-icon:before {
@@ -931,7 +931,7 @@ BODY#mda-stratio-tpl .mda-icon, BODY.mda-stratio-tpl .mda-icon, #mda-stratio-tpl
   BODY#mda-stratio-tpl .icon-radio.mda-icon:before, BODY.mda-stratio-tpl .icon-radio.mda-icon:before, #mda-stratio-tpl__layer .icon-radio.mda-icon:before {
     content: "\e9c1"; }
   BODY#mda-stratio-tpl .icon-radio-checked.mda-icon:before, BODY.mda-stratio-tpl .icon-radio-checked.mda-icon:before, #mda-stratio-tpl__layer .icon-radio-checked.mda-icon:before {
-    content: "\e9bf"; }
+    content: "\e9c0"; }
 
 BODY#mda-stratio-tpl .mda-fs__12, BODY.mda-stratio-tpl .mda-fs__12, #mda-stratio-tpl__layer .mda-fs__12 {
   font-size: 12px;
