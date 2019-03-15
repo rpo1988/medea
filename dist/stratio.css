@@ -932,6 +932,10 @@ BODY#mda-stratio-tpl .mda-icon, BODY.mda-stratio-tpl .mda-icon, #mda-stratio-tpl
     content: "\e9c1"; }
   BODY#mda-stratio-tpl .icon-radio-checked.mda-icon:before, BODY.mda-stratio-tpl .icon-radio-checked.mda-icon:before, #mda-stratio-tpl__layer .icon-radio-checked.mda-icon:before {
     content: "\e9c0"; }
+  BODY#mda-stratio-tpl .icon-arrow4_right.mda-icon:before, BODY.mda-stratio-tpl .icon-arrow4_right.mda-icon:before, #mda-stratio-tpl__layer .icon-arrow4_right.mda-icon:before {
+    content: "\e9be"; }
+  BODY#mda-stratio-tpl .icon-arrow4_left.mda-icon:before, BODY.mda-stratio-tpl .icon-arrow4_left.mda-icon:before, #mda-stratio-tpl__layer .icon-arrow4_left.mda-icon:before {
+    content: "\e9bd"; }
 
 BODY#mda-stratio-tpl .mda-fs__12, BODY.mda-stratio-tpl .mda-fs__12, #mda-stratio-tpl__layer .mda-fs__12 {
   font-size: 12px;
