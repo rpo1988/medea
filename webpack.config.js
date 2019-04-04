@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   entry: {
     stratio: path.resolve(__dirname, 'src/style/templates/stratio/stratio.scss'),
-    eci: path.resolve(__dirname, 'src/style/templates/eci/eci.scss')
+    sanitas: path.resolve(__dirname, 'src/style/templates/sanitas/sanitas.scss')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

@@ -1,0 +1,23 @@
+@import '../../global/fonts/Sanitas-Icon';
+
+@import 'backroom/font-helpers';
+
+BODY#mda-sanitas-tpl, BODY.mda-sanitas-tpl, #mda-sanitas-tpl__layer {
+  font-size: 16px;
+
+  * {
+    font-family: Arial, sans-serif;
+    @extend %mda-font__default;
+    outline: none;
+  }
+
+  @extend %mda-font-sizes__base;
+
+  .bupa-icon {
+    @extend %bupa-icon__definition;
+  }
+
+  .mda-font__default {
+    @extend %mda-font__default;
+  }
+}
