@@ -1,7 +1,7 @@
 {
   "name": "@lunaeme/medea",
-  "version": "0.1.0",
-  "description": "Template system.",
+  "version": "0.1.1",
+  "description": "Medea template system.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

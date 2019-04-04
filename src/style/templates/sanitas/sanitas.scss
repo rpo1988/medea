@@ -1,3 +1,4 @@
+@import '../../global/fonts/Montserrat';
 @import '../../global/fonts/Sanitas-Icon';
 
 @import 'backroom/font-helpers';
@@ -9,8 +10,12 @@ BODY#mda-sanitas-tpl, BODY.mda-sanitas-tpl, #mda-sanitas-tpl__layer {
     font-family: Arial, sans-serif;
     @extend %mda-font__default;
     outline: none;
+    &.mnt {
+      font-family: Montserrat, sans-serif;
+    }
   }
 
+  @extend %mda-typography__base;
   @extend %mda-font-sizes__base;
 
   .bupa-icon {
