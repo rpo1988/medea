@@ -998,8 +998,6 @@ BODY#mda-stratio-tpl .mda-fs__32, BODY.mda-stratio-tpl .mda-fs__32, #mda-stratio
   line-height: 2.375rem; }
 
 BODY#mda-stratio-tpl *, BODY.mda-stratio-tpl *, #mda-stratio-tpl__layer *, BODY#mda-stratio-tpl .mda-font__default, BODY.mda-stratio-tpl .mda-font__default, #mda-stratio-tpl__layer .mda-font__default {
-  font-weight: normal;
-  font-style: normal;
   font-size: 16px;
   font-size: 1rem;
   line-height: 21px;
