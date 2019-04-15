@@ -18,6 +18,19 @@ BODY#mda-sanitas-tpl, BODY.mda-sanitas-tpl, #mda-sanitas-tpl__layer {
   @extend %mda-typography__base;
   @extend %mda-font-sizes__base;
 
+  @extend %mda-font__headers;
+
+  .mda-italic {
+    font-style: italic;
+  }
+  .mda-bold {
+    font-weight: bold;
+  }
+  .mda-italic-bold {
+    @extend .mda-italic;
+    @extend .mda-bold;
+  }
+
   .bupa-icon {
     @extend %bupa-icon__definition;
   }

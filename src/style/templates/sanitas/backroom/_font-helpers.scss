@@ -18,3 +18,12 @@ $fontSizeDefault: map-get($fontSizesAvailable, 16);
   // @include createTypographyElement(map-get($typoDefault, weight), map-get($typoDefault, style));
   @include createFontSizeElement(map-get($fontSizeDefault, fontSize), map-get($fontSizeDefault, lineHeight));
 }
+
+%mda-font__headers {
+  H1 { @extend .mda-fs__32; }
+  H2 { @extend .mda-fs__25; }
+  H3 { @extend .mda-fs__18; }
+  H4 { @extend .mda-fs__16; }
+  H5 { @extend .mda-fs__14; }
+  H6 { @extend .mda-fs__12; }
+}

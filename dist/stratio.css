@@ -937,13 +937,13 @@ BODY#mda-stratio-tpl .mda-icon, BODY.mda-stratio-tpl .mda-icon, #mda-stratio-tpl
   BODY#mda-stratio-tpl .icon-arrow4_left.mda-icon:before, BODY.mda-stratio-tpl .icon-arrow4_left.mda-icon:before, #mda-stratio-tpl__layer .icon-arrow4_left.mda-icon:before {
     content: "\e9bd"; }
 
-BODY#mda-stratio-tpl .mda-fs__12, BODY.mda-stratio-tpl .mda-fs__12, #mda-stratio-tpl__layer .mda-fs__12 {
+BODY#mda-stratio-tpl .mda-fs__12, BODY.mda-stratio-tpl .mda-fs__12, #mda-stratio-tpl__layer .mda-fs__12, BODY#mda-stratio-tpl H6, BODY.mda-stratio-tpl H6, #mda-stratio-tpl__layer H6 {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 17px;
   line-height: 1.0625rem; }
 
-BODY#mda-stratio-tpl .mda-fs__14, BODY.mda-stratio-tpl .mda-fs__14, #mda-stratio-tpl__layer .mda-fs__14 {
+BODY#mda-stratio-tpl .mda-fs__14, BODY.mda-stratio-tpl .mda-fs__14, #mda-stratio-tpl__layer .mda-fs__14, BODY#mda-stratio-tpl H5, BODY.mda-stratio-tpl H5, #mda-stratio-tpl__layer H5 {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 18px;
@@ -955,13 +955,13 @@ BODY#mda-stratio-tpl .mda-fs__15, BODY.mda-stratio-tpl .mda-fs__15, #mda-stratio
   line-height: 20px;
   line-height: 1.25rem; }
 
-BODY#mda-stratio-tpl .mda-fs__16, BODY.mda-stratio-tpl .mda-fs__16, #mda-stratio-tpl__layer .mda-fs__16 {
+BODY#mda-stratio-tpl .mda-fs__16, BODY.mda-stratio-tpl .mda-fs__16, #mda-stratio-tpl__layer .mda-fs__16, BODY#mda-stratio-tpl H4, BODY.mda-stratio-tpl H4, #mda-stratio-tpl__layer H4 {
   font-size: 16px;
   font-size: 1rem;
   line-height: 21px;
   line-height: 1.3125rem; }
 
-BODY#mda-stratio-tpl .mda-fs__18, BODY.mda-stratio-tpl .mda-fs__18, #mda-stratio-tpl__layer .mda-fs__18 {
+BODY#mda-stratio-tpl .mda-fs__18, BODY.mda-stratio-tpl .mda-fs__18, #mda-stratio-tpl__layer .mda-fs__18, BODY#mda-stratio-tpl H3, BODY.mda-stratio-tpl H3, #mda-stratio-tpl__layer H3 {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 22px;
@@ -979,7 +979,7 @@ BODY#mda-stratio-tpl .mda-fs__22, BODY.mda-stratio-tpl .mda-fs__22, #mda-stratio
   line-height: 26px;
   line-height: 1.625rem; }
 
-BODY#mda-stratio-tpl .mda-fs__25, BODY.mda-stratio-tpl .mda-fs__25, #mda-stratio-tpl__layer .mda-fs__25 {
+BODY#mda-stratio-tpl .mda-fs__25, BODY.mda-stratio-tpl .mda-fs__25, #mda-stratio-tpl__layer .mda-fs__25, BODY#mda-stratio-tpl H2, BODY.mda-stratio-tpl H2, #mda-stratio-tpl__layer H2 {
   font-size: 25px;
   font-size: 1.5625rem;
   line-height: 30px;
@@ -991,11 +991,65 @@ BODY#mda-stratio-tpl .mda-fs__29, BODY.mda-stratio-tpl .mda-fs__29, #mda-stratio
   line-height: 34px;
   line-height: 2.125rem; }
 
-BODY#mda-stratio-tpl .mda-fs__32, BODY.mda-stratio-tpl .mda-fs__32, #mda-stratio-tpl__layer .mda-fs__32 {
+BODY#mda-stratio-tpl .mda-fs__32, BODY.mda-stratio-tpl .mda-fs__32, #mda-stratio-tpl__layer .mda-fs__32, BODY#mda-stratio-tpl H1, BODY.mda-stratio-tpl H1, #mda-stratio-tpl__layer H1 {
   font-size: 32px;
   font-size: 2rem;
   line-height: 38px;
   line-height: 2.375rem; }
+
+BODY#mda-stratio-tpl .mda-fs__36, BODY.mda-stratio-tpl .mda-fs__36, #mda-stratio-tpl__layer .mda-fs__36 {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 43.2px;
+  line-height: 2.7rem; }
+
+BODY#mda-stratio-tpl .mda-fs__41, BODY.mda-stratio-tpl .mda-fs__41, #mda-stratio-tpl__layer .mda-fs__41 {
+  font-size: 41px;
+  font-size: 2.5625rem;
+  line-height: 49.2px;
+  line-height: 3.075rem; }
+
+BODY#mda-stratio-tpl .mda-fs__46, BODY.mda-stratio-tpl .mda-fs__46, #mda-stratio-tpl__layer .mda-fs__46 {
+  font-size: 46px;
+  font-size: 2.875rem;
+  line-height: 55.2px;
+  line-height: 3.45rem; }
+
+BODY#mda-stratio-tpl .mda-fs__52, BODY.mda-stratio-tpl .mda-fs__52, #mda-stratio-tpl__layer .mda-fs__52 {
+  font-size: 52px;
+  font-size: 3.25rem;
+  line-height: 62.4px;
+  line-height: 3.9rem; }
+
+BODY#mda-stratio-tpl .mda-fs__58, BODY.mda-stratio-tpl .mda-fs__58, #mda-stratio-tpl__layer .mda-fs__58 {
+  font-size: 58px;
+  font-size: 3.625rem;
+  line-height: 69.6px;
+  line-height: 4.35rem; }
+
+BODY#mda-stratio-tpl .mda-fs__66, BODY.mda-stratio-tpl .mda-fs__66, #mda-stratio-tpl__layer .mda-fs__66 {
+  font-size: 66px;
+  font-size: 4.125rem;
+  line-height: 79.2px;
+  line-height: 4.95rem; }
+
+BODY#mda-stratio-tpl .mda-fs__74, BODY.mda-stratio-tpl .mda-fs__74, #mda-stratio-tpl__layer .mda-fs__74 {
+  font-size: 74px;
+  font-size: 4.625rem;
+  line-height: 88.8px;
+  line-height: 5.55rem; }
+
+BODY#mda-stratio-tpl .mda-fs__83, BODY.mda-stratio-tpl .mda-fs__83, #mda-stratio-tpl__layer .mda-fs__83 {
+  font-size: 83px;
+  font-size: 5.1875rem;
+  line-height: 99.6px;
+  line-height: 6.225rem; }
+
+BODY#mda-stratio-tpl .mda-fs__94, BODY.mda-stratio-tpl .mda-fs__94, #mda-stratio-tpl__layer .mda-fs__94 {
+  font-size: 94px;
+  font-size: 5.875rem;
+  line-height: 112.8px;
+  line-height: 7.05rem; }
 
 BODY#mda-stratio-tpl *, BODY.mda-stratio-tpl *, #mda-stratio-tpl__layer *, BODY#mda-stratio-tpl .mda-font__default, BODY.mda-stratio-tpl .mda-font__default, #mda-stratio-tpl__layer .mda-font__default {
   font-size: 16px;
@@ -1008,4 +1062,8 @@ BODY#mda-stratio-tpl, BODY.mda-stratio-tpl, #mda-stratio-tpl__layer {
   BODY#mda-stratio-tpl *, BODY.mda-stratio-tpl *, #mda-stratio-tpl__layer * {
     font-family: Nunito, sans-serif;
     outline: none; }
+  BODY#mda-stratio-tpl .mda-italic, BODY#mda-stratio-tpl .mda-italic-bold, BODY.mda-stratio-tpl .mda-italic, BODY.mda-stratio-tpl BODY#mda-stratio-tpl .mda-italic-bold, BODY#mda-stratio-tpl BODY.mda-stratio-tpl .mda-italic-bold, BODY.mda-stratio-tpl .mda-italic-bold, BODY.mda-stratio-tpl #mda-stratio-tpl__layer .mda-italic-bold, #mda-stratio-tpl__layer BODY.mda-stratio-tpl .mda-italic-bold, #mda-stratio-tpl__layer .mda-italic, #mda-stratio-tpl__layer BODY#mda-stratio-tpl .mda-italic-bold, BODY#mda-stratio-tpl #mda-stratio-tpl__layer .mda-italic-bold, #mda-stratio-tpl__layer .mda-italic-bold {
+    font-style: italic; }
+  BODY#mda-stratio-tpl .mda-bold, BODY#mda-stratio-tpl .mda-italic-bold, BODY.mda-stratio-tpl .mda-bold, BODY.mda-stratio-tpl BODY#mda-stratio-tpl .mda-italic-bold, BODY#mda-stratio-tpl BODY.mda-stratio-tpl .mda-italic-bold, BODY.mda-stratio-tpl .mda-italic-bold, BODY.mda-stratio-tpl #mda-stratio-tpl__layer .mda-italic-bold, #mda-stratio-tpl__layer BODY.mda-stratio-tpl .mda-italic-bold, #mda-stratio-tpl__layer .mda-bold, #mda-stratio-tpl__layer BODY#mda-stratio-tpl .mda-italic-bold, BODY#mda-stratio-tpl #mda-stratio-tpl__layer .mda-italic-bold, #mda-stratio-tpl__layer .mda-italic-bold {
+    font-weight: bold; }
 
