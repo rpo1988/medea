@@ -132,6 +132,12 @@ BODY#mda-sanitas-tpl .bupa-icon, BODY.mda-sanitas-tpl .bupa-icon, #mda-sanitas-t
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga'; }
+  BODY#mda-sanitas-tpl .i-check-hyphen-1px.bupa-icon:before, BODY.mda-sanitas-tpl .i-check-hyphen-1px.bupa-icon:before, #mda-sanitas-tpl__layer .i-check-hyphen-1px.bupa-icon:before {
+    content: "\eb66"; }
+  BODY#mda-sanitas-tpl .i-check-hyphen-2px.bupa-icon:before, BODY.mda-sanitas-tpl .i-check-hyphen-2px.bupa-icon:before, #mda-sanitas-tpl__layer .i-check-hyphen-2px.bupa-icon:before {
+    content: "\eb67"; }
+  BODY#mda-sanitas-tpl .i-bell-cancel.bupa-icon:before, BODY.mda-sanitas-tpl .i-bell-cancel.bupa-icon:before, #mda-sanitas-tpl__layer .i-bell-cancel.bupa-icon:before {
+    content: "\eb65"; }
   BODY#mda-sanitas-tpl .i-check-empty-1px.bupa-icon:before, BODY.mda-sanitas-tpl .i-check-empty-1px.bupa-icon:before, #mda-sanitas-tpl__layer .i-check-empty-1px.bupa-icon:before {
     content: "\eb63"; }
   BODY#mda-sanitas-tpl .i-check-empty-2px.bupa-icon:before, BODY.mda-sanitas-tpl .i-check-empty-2px.bupa-icon:before, #mda-sanitas-tpl__layer .i-check-empty-2px.bupa-icon:before {
