@@ -1,3 +1,3 @@
 # MEDEA (Template System)
 
-POC and Beta Test artifact... coming soon...
+Template system for typography.
