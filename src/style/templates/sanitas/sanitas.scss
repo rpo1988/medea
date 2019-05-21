@@ -1,5 +1,6 @@
 @import '../../global/fonts/Montserrat';
 @import '../../global/fonts/Sanitas-Icon';
+@import '../../global/fonts/Stratio-Icon';
 
 @import 'backroom/font-helpers';
 
@@ -33,6 +34,10 @@ BODY#mda-sanitas-tpl, BODY.mda-sanitas-tpl, #mda-sanitas-tpl__layer {
 
   .bupa-icon {
     @extend %bupa-icon__definition;
+  }
+
+  .mda-icon {
+    @extend %mda-icon__definition;
   }
 
   .mda-font__default {
