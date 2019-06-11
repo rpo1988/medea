@@ -132,6 +132,14 @@ BODY#mda-sanitas-tpl .bupa-icon, BODY.mda-sanitas-tpl .bupa-icon, #mda-sanitas-t
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga'; }
+  BODY#mda-sanitas-tpl .i-misc-user-linear-cancel.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-user-linear-cancel.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-user-linear-cancel.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-user-linear-cancel.bupa-icon:before {
+    content: "\eb6b"; }
+  BODY#mda-sanitas-tpl .i-qr-code.bupa-icon:before, BODY.mda-sanitas-tpl .i-qr-code.bupa-icon:before, #mda-sanitas-tpl__layer .i-qr-code.bupa-icon:before, .mda-sanitas-tpl__layer .i-qr-code.bupa-icon:before {
+    content: "\eb6a"; }
+  BODY#mda-sanitas-tpl .i-rounded-button.bupa-icon:before, BODY.mda-sanitas-tpl .i-rounded-button.bupa-icon:before, #mda-sanitas-tpl__layer .i-rounded-button.bupa-icon:before, .mda-sanitas-tpl__layer .i-rounded-button.bupa-icon:before {
+    content: "\eb69"; }
+  BODY#mda-sanitas-tpl .i-rounded-button-empty.bupa-icon:before, BODY.mda-sanitas-tpl .i-rounded-button-empty.bupa-icon:before, #mda-sanitas-tpl__layer .i-rounded-button-empty.bupa-icon:before, .mda-sanitas-tpl__layer .i-rounded-button-empty.bupa-icon:before {
+    content: "\eb68"; }
   BODY#mda-sanitas-tpl .i-check-hyphen-1px.bupa-icon:before, BODY.mda-sanitas-tpl .i-check-hyphen-1px.bupa-icon:before, #mda-sanitas-tpl__layer .i-check-hyphen-1px.bupa-icon:before, .mda-sanitas-tpl__layer .i-check-hyphen-1px.bupa-icon:before {
     content: "\eb66"; }
   BODY#mda-sanitas-tpl .i-check-hyphen-2px.bupa-icon:before, BODY.mda-sanitas-tpl .i-check-hyphen-2px.bupa-icon:before, #mda-sanitas-tpl__layer .i-check-hyphen-2px.bupa-icon:before, .mda-sanitas-tpl__layer .i-check-hyphen-2px.bupa-icon:before {
