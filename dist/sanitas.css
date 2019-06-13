@@ -132,6 +132,8 @@ BODY#mda-sanitas-tpl .bupa-icon, BODY.mda-sanitas-tpl .bupa-icon, #mda-sanitas-t
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga'; }
+  BODY#mda-sanitas-tpl .i-misc-target-linear-cancel.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-target-linear-cancel.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-target-linear-cancel.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-target-linear-cancel.bupa-icon:before {
+    content: "\eb6c"; }
   BODY#mda-sanitas-tpl .i-misc-user-linear-cancel.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-user-linear-cancel.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-user-linear-cancel.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-user-linear-cancel.bupa-icon:before {
     content: "\eb6b"; }
   BODY#mda-sanitas-tpl .i-qr-code.bupa-icon:before, BODY.mda-sanitas-tpl .i-qr-code.bupa-icon:before, #mda-sanitas-tpl__layer .i-qr-code.bupa-icon:before, .mda-sanitas-tpl__layer .i-qr-code.bupa-icon:before {
