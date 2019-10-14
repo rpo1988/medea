@@ -1374,6 +1374,20 @@ BODY#mda-sanitas-tpl .bupa-icon, BODY.mda-sanitas-tpl .bupa-icon, #mda-sanitas-t
     content: "\eb60"; }
   BODY#mda-sanitas-tpl .i-specialties-vascular-surgery2-linear.bupa-icon:before, BODY.mda-sanitas-tpl .i-specialties-vascular-surgery2-linear.bupa-icon:before, #mda-sanitas-tpl__layer .i-specialties-vascular-surgery2-linear.bupa-icon:before, .mda-sanitas-tpl__layer .i-specialties-vascular-surgery2-linear.bupa-icon:before {
     content: "\eb61"; }
+  BODY#mda-sanitas-tpl .i-misc-filter-solid.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-filter-solid.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-filter-solid.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-filter-solid.bupa-icon:before {
+    content: "\eb6d"; }
+  BODY#mda-sanitas-tpl .i-misc-lines.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-lines.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-lines.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-lines.bupa-icon:before {
+    content: "\eb6e"; }
+  BODY#mda-sanitas-tpl .i-misc-duplicated.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-duplicated.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-duplicated.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-duplicated.bupa-icon:before {
+    content: "\eb6f"; }
+  BODY#mda-sanitas-tpl .i-misc-filter-linear.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-filter-linear.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-filter-linear.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-filter-linear.bupa-icon:before {
+    content: "\eb70"; }
+  BODY#mda-sanitas-tpl .i-misc-desprogramar.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-desprogramar.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-desprogramar.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-desprogramar.bupa-icon:before {
+    content: "\eb71"; }
+  BODY#mda-sanitas-tpl .i-misc-desfusion.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-desfusion.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-desfusion.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-desfusion.bupa-icon:before {
+    content: "\eb72"; }
+  BODY#mda-sanitas-tpl .i-misc-fusion.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-fusion.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-fusion.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-fusion.bupa-icon:before {
+    content: "\eb73"; }
 
 @font-face {
   font-family: "Stratio Icon";
