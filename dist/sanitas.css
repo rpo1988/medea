@@ -574,9 +574,9 @@ BODY#mda-sanitas-tpl .bupa-icon, BODY.mda-sanitas-tpl .bupa-icon, #mda-sanitas-t
     content: "\e9d0"; }
   BODY#mda-sanitas-tpl .i-misc-clinic-linear.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-clinic-linear.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-clinic-linear.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-clinic-linear.bupa-icon:before {
     content: "\e9d1"; }
-  BODY#mda-sanitas-tpl .i-misc-clock-linear-path1.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-clock-linear-path1.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-clock-linear-path1.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-clock-linear-path1.bupa-icon:before {
+  BODY#mda-sanitas-tpl .i-misc-clock-linear.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-clock-linear.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-clock-linear.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-clock-linear.bupa-icon:before {
     content: "\e9d2"; }
-  BODY#mda-sanitas-tpl .i-misc-clock-linear-path2.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-clock-linear-path2.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-clock-linear-path2.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-clock-linear-path2.bupa-icon:before {
+  BODY#mda-sanitas-tpl .i-misc-barcode.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-barcode.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-barcode.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-barcode.bupa-icon:before {
     content: "\e9d3"; }
   BODY#mda-sanitas-tpl .i-misc-clock-solid.bupa-icon:before, BODY.mda-sanitas-tpl .i-misc-clock-solid.bupa-icon:before, #mda-sanitas-tpl__layer .i-misc-clock-solid.bupa-icon:before, .mda-sanitas-tpl__layer .i-misc-clock-solid.bupa-icon:before {
     content: "\e9d4"; }
