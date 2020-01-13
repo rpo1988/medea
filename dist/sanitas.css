@@ -3275,6 +3275,11 @@
   #mda-sanitas-tpl__layer .i-misc-fusion.bupa-icon:before,
   .mda-sanitas-tpl__layer .i-misc-fusion.bupa-icon:before {
     content: "\eb73"; }
+  #mda-sanitas-tpl .i-misc-reserved.bupa-icon:before,
+  .mda-sanitas-tpl .i-misc-reserved.bupa-icon:before,
+  #mda-sanitas-tpl__layer .i-misc-reserved.bupa-icon:before,
+  .mda-sanitas-tpl__layer .i-misc-reserved.bupa-icon:before {
+    content: "\eb74"; }
 
 @font-face {
   font-family: "Stratio Icon";
