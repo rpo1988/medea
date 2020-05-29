@@ -1,6 +1,6 @@
 {
   "name": "ui-medea-lib",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Medea template system.",
   "main": "index.js",
   "scripts": {
