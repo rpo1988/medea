@@ -48,8 +48,6 @@ done
 
 # Commit changes
 git commit -am "chore(deploy): create package version -> $NEW_VERSION"
-# Create git tag because npm version not create it when execute it in another directory of .git file
-git tag -a "$NEW_VERSION" -m "Create package version -> $NEW_VERSION"
 # Push git changes and tags to remote (There is a hook that will run a npm run build script before to push it)
 git push --follow-tags
 
@@ -63,4 +61,4 @@ fi
 # Disable ssl check before publish to be sure
 npm config set strict-ssl false
 # Publish package to npm registry. Need to be login
-npm --registry=$REGISTRY_URL publish "./dist/$PACKAGE_NAME"
+npm --registry=$REGISTRY_URL publish "."
