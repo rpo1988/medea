@@ -23,6 +23,9 @@
     "url": "https://github.com/nulpas/medea/issues"
   },
   "homepage": "https://github.com/nulpas/medea#readme",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
