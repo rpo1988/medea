@@ -4,10 +4,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    stratio: path.resolve(
-      __dirname,
-      "src/style/templates/stratio/stratio.scss"
-    ),
     sanitas: path.resolve(
       __dirname,
       "src/style/templates/sanitas/sanitas.scss"
@@ -48,12 +44,8 @@ module.exports = {
       {
         test: /\.(eot|svg|ttf|woff|woff2)$/i,
         loader: "file-loader?name=fonts/[name].[ext]",
-      },
-      // {
-      //   test: /\.(jpe?g|png|gif|svg)$/i,
-      //   loader: 'file-loader?name=assets/img/[name].[ext]'
-      // }
-    ],
+      }
+    ]
   },
   plugins: [
     new MiniCssExtractPlugin({

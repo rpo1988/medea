@@ -2,7 +2,7 @@
 //## PARAMETERS: font-family, font-weight, font-style, url, local, local
 @mixin createFontFaceRule($name, $weight, $style, $path, $local01: '', $local02: '') {
   $_local01: if($local01 != '', 'local("#{$local01}"),', '');
-  $_local02: if($local02 != '', 'local(#{$local02}),', '');
+  $_local02: if($local02 != '', 'local("#{$local02}"),', '');
 
   @font-face {
     font-family: $name;

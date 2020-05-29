@@ -1,5 +1,4 @@
 @import '../../../global/mixins';
-@import '../../../global/monstserrat-definitions';
 
 @import 'font-sizes';
 
@@ -11,11 +10,9 @@
   }
 }
 
-$typoDefault: map-get($fontWeightsAvailable, regular);
 $fontSizeDefault: map-get($fontSizesAvailable, 16);
 
 %mda-font__default {
-  // @include createTypographyElement(map-get($typoDefault, weight), map-get($typoDefault, style));
   @include createFontSizeElement(map-get($fontSizeDefault, fontSize), map-get($fontSizeDefault, lineHeight));
 }
 
