@@ -1,11 +1,12 @@
 {
-  "name": "@lunaeme/medea",
+  "name": "ui-medea-lib",
   "version": "1.0.0",
   "description": "Medea template system.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "./scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
